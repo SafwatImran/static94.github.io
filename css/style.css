@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.header {
+    background-color:#42b883;
+    min-height: 100px;
+    overflow: hidden;
+}
+.wrapper {
+    width: 90%;
+    margin:0 auto;
+}
+
+.logo {
+    width:100%;
+    padding-top: 15px;
+}
+.logo h1{
+	text-align: center;
+	font-family:"century gothic";
+    font-weight: bold;
+    font-size: 40px;
+    color:#347474;
+}
+.navbar {
+    width:100%;
+    float:right;
+    padding:0 auto;
+    border:1px solid #2F2F2F;
+    border-radius: 25px;
+    margin-top: 25px;
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li{
+    float:left;
+    width:20%;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 80%;
+    text-align: center;
+    color: #347474;
+    display: block;
+    padding: 15px 53px;
+    transition: 0.5s;
+    border-right: 0.5px solid #347474;
+    font-family: 'century gothic';
+    
+}
+.navbar ul li a:hover{
+    color: #CDE05E;
+}
+.slider {
+    min-height: 370px;
+    background-color:#42b883;
+    overflow: hidden;
+    border-top:10px solid #CDE05E;
+}
+
+.slider_image {
+    width: 30%;
+    float: left;
+}
+
+.slider_image img{
+    width: 80%;;
+}
+.slider_content {
+    width: 60%;
+    margin-top: 37px;
+    float: left;
+
+}
+.slider_content h1{
+    padding-left: 0px;
+    float:left;
+    font-weight: 400px;
+    font-size: 35px;
+    font-family: "century gothic";
+    color:#347474;
+}
+.slider_content p{
+    padding-top: 20px;
+    padding-left: 0px;
+    float:left;
+    font-size: 20px;
+    color: #347474;
+}
+.section2 {
+	border-top:10px solid #CDE05E;
+    min-height: 370px;
+    background-color:#42b883;
+    overflow: hidden;
+    border-top:10px solid #CDE05E;
+}
+.section2_image{
+	width:50%;
+	float:left;
+}
+.section2_image img {
+	width:80%;
+}
+
+.section2_content {
+    width: 100%;
+    margin-top: 37px;
+    float: left;
+
+}
+.section2_content h1{
+    padding-left: 0px;
+    float:left;
+    font-weight: 400px;
+    font-size: 35px;
+    font-family: "century gothic";
+    color:#347474;
+}
+.section2_content2 p{
+    padding-top: 20px;
+    padding-left: 0px;
+    float:left;
+    font-size: 20px;
+    color: #347474;
+}
