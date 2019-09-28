@@ -1,6 +1,58 @@
 *{
     margin:0;
     padding:0;
+    font-family: "century gothic";
+    font-weight: bold;
+}
+.magic {
+    color:#347474;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.numberCrunch {
+    color:#347474;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.sDisplay {
+    color:#347474;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.sequence{
+        color:#347474;
+        text-align: center;
+        margin-bottom: 30px; 
+    
+}
+.converter {
+    color:#347474;
+    text-align: center;
+    margin-bottom: 30px; 
+}
+.quote {
+    color:#347474;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.quoteDisplay {
+    color:#347474;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.btn {
+    margin-left: 0%;
+    background-color:#347474;
+    min-height: 35px;
+    width: 100px;
+    border-radius: 10px;
+    font-family: "century gothic";
+    color:rgb(126, 183, 230);
+    font-weight: bold;
+    font-size: 14px;
+    transition: 0.4s;
+    margin-bottom: 40px;
+
 }
 
 .header {
