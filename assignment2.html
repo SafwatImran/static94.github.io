@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en ">
+    <head>
+        <meta charset="UTF-8">
+        <title>Assignment2</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="assignment2.js"></script>
+    </head>
+     <div class="header">
+            <div class="wrapper">
+                <div class="logo">
+                    <h1>Mohammed Safwat Imran</h1>
+                    
+                </div>
+                <br><br><br>
+               <body>
+               	<div class="quoteDisplay" style="border-style: dotted; border-color:#347474">
+                <h2>Quote Generator</h2>
+               	<div class="quote" id="qDisplay"></div>
+           		<div style="text-align: center;"> <button class="btn" onclick="newQuote()">Generate!</button></div>
+                </div>
+                   <div class="converter"style="border-style: dotted; border-color:#347474">
+                    <h2>Hero Converter</h2>
+                    <p>Convert</p>
+                    <div style="text-align:center;"><input class="inputbox" type="number"  id="converterText"/></div>
+                    <form>
+                        <select id = "dropdown">
+                            <option value = "1" >lb to kg</option>
+                            <option value = "2" selected>kg to lb</option>
+                        </select>
+                    </form> 
+                    <div  id="cDisplay"></div>
+                    <div style="text-align: center;"> <button class="btn-1" onclick="newNumber()">Convert!</button></div>
+                </div>
+                <div class="numberCrunch" style="border-style: dotted; border-color:#347474">
+                    <h2>Sequence Manipulator</h2>
+                    <div class="sequence" style="text-align:center;"><p>Please enter a sequence of numbers:</p>
+                    <input class="inputbox-1" type="text" onkeyup="numberCrunch()"  id="sequenceText"/></div>
+                    <p>Max = </p>
+                    <div id="maxDisplay"></div>
+                    <p>Min = </p>
+                    <div id="minDisplay"></div>
+                    <p>Sum = </p>
+                    <div id="sumDisplay"></div>
+                    <div class="sDisplay"id="sDisplay"></div>
+                    <p>Average = </p>
+                    <div id="avgDisplay"></div>
+                    <p>Reverse = </p>
+                    <div id='revDisplay'></div>
+                </div>
+                <div class= "magic" onClick="magic()">
+                    <h2>Magic</h2>
+                    <div id='magicDisplay'></div>
+                
+                
+                
+                </div>
+               	</body>
